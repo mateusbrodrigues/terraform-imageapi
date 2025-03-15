@@ -1,0 +1,319 @@
+{
+  "version": 4,
+  "terraform_version": "1.11.2",
+  "serial": 1,
+  "lineage": "5cba7729-636d-4f74-eba9-bf3aac35afc0",
+  "outputs": {
+    "aws_cloudwatch_metric_alarm_tfer--DBStats-0020-errors_id": {
+      "value": "DBStats errors",
+      "type": "string"
+    },
+    "aws_cloudwatch_metric_alarm_tfer--deleteImage-0020-errors_id": {
+      "value": "deleteImage errors",
+      "type": "string"
+    },
+    "aws_cloudwatch_metric_alarm_tfer--downloadImage-0020-errors_id": {
+      "value": "downloadImage errors",
+      "type": "string"
+    },
+    "aws_cloudwatch_metric_alarm_tfer--imageProcessing-0020-errors_id": {
+      "value": "imageProcessing errors",
+      "type": "string"
+    },
+    "aws_cloudwatch_metric_alarm_tfer--listImages-0020-errors_id": {
+      "value": "listImages errors",
+      "type": "string"
+    },
+    "aws_cloudwatch_metric_alarm_tfer--saveMetadata-0020-errors_id": {
+      "value": "saveMetadata errors",
+      "type": "string"
+    },
+    "aws_cloudwatch_metric_alarm_tfer--uploadImage-0020-errors_id": {
+      "value": "uploadImage errors",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_cloudwatch_metric_alarm",
+      "name": "tfer--DBStats-0020-errors",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "actions_enabled": "true",
+            "alarm_actions.#": "1",
+            "alarm_actions.0": "arn:aws:sns:us-east-2:982534391787:Default_CloudWatch_Alarms_Topic",
+            "alarm_description": "",
+            "alarm_name": "DBStats errors",
+            "arn": "arn:aws:cloudwatch:us-east-2:982534391787:alarm:DBStats errors",
+            "comparison_operator": "GreaterThanThreshold",
+            "datapoints_to_alarm": "1",
+            "dimensions.%": "1",
+            "dimensions.FunctionName": "dbStats",
+            "evaluate_low_sample_count_percentiles": "",
+            "evaluation_periods": "1",
+            "extended_statistic": "",
+            "id": "DBStats errors",
+            "insufficient_data_actions.#": "0",
+            "metric_name": "Errors",
+            "namespace": "AWS/Lambda",
+            "ok_actions.#": "0",
+            "period": "300",
+            "statistic": "Sum",
+            "tags.%": "0",
+            "tags_all.%": "0",
+            "threshold": "1",
+            "threshold_metric_id": "",
+            "treat_missing_data": "missing",
+            "unit": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_cloudwatch_metric_alarm",
+      "name": "tfer--deleteImage-0020-errors",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "actions_enabled": "true",
+            "alarm_actions.#": "1",
+            "alarm_actions.0": "arn:aws:sns:us-east-2:982534391787:Default_CloudWatch_Alarms_Topic",
+            "alarm_description": "",
+            "alarm_name": "deleteImage errors",
+            "arn": "arn:aws:cloudwatch:us-east-2:982534391787:alarm:deleteImage errors",
+            "comparison_operator": "GreaterThanThreshold",
+            "datapoints_to_alarm": "1",
+            "dimensions.%": "1",
+            "dimensions.FunctionName": "deleteImage",
+            "evaluate_low_sample_count_percentiles": "",
+            "evaluation_periods": "1",
+            "extended_statistic": "",
+            "id": "deleteImage errors",
+            "insufficient_data_actions.#": "0",
+            "metric_name": "Errors",
+            "namespace": "AWS/Lambda",
+            "ok_actions.#": "0",
+            "period": "300",
+            "statistic": "Sum",
+            "tags.%": "0",
+            "tags_all.%": "0",
+            "threshold": "1",
+            "threshold_metric_id": "",
+            "treat_missing_data": "missing",
+            "unit": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_cloudwatch_metric_alarm",
+      "name": "tfer--downloadImage-0020-errors",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "actions_enabled": "true",
+            "alarm_actions.#": "1",
+            "alarm_actions.0": "arn:aws:sns:us-east-2:982534391787:Default_CloudWatch_Alarms_Topic",
+            "alarm_description": "",
+            "alarm_name": "downloadImage errors",
+            "arn": "arn:aws:cloudwatch:us-east-2:982534391787:alarm:downloadImage errors",
+            "comparison_operator": "GreaterThanThreshold",
+            "datapoints_to_alarm": "1",
+            "dimensions.%": "1",
+            "dimensions.FunctionName": "downloadImage",
+            "evaluate_low_sample_count_percentiles": "",
+            "evaluation_periods": "1",
+            "extended_statistic": "",
+            "id": "downloadImage errors",
+            "insufficient_data_actions.#": "0",
+            "metric_name": "Errors",
+            "namespace": "AWS/Lambda",
+            "ok_actions.#": "0",
+            "period": "300",
+            "statistic": "Sum",
+            "tags.%": "0",
+            "tags_all.%": "0",
+            "threshold": "1",
+            "threshold_metric_id": "",
+            "treat_missing_data": "missing",
+            "unit": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_cloudwatch_metric_alarm",
+      "name": "tfer--imageProcessing-0020-errors",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "actions_enabled": "true",
+            "alarm_actions.#": "1",
+            "alarm_actions.0": "arn:aws:sns:us-east-2:982534391787:Default_CloudWatch_Alarms_Topic",
+            "alarm_description": "",
+            "alarm_name": "imageProcessing errors",
+            "arn": "arn:aws:cloudwatch:us-east-2:982534391787:alarm:imageProcessing errors",
+            "comparison_operator": "GreaterThanThreshold",
+            "datapoints_to_alarm": "1",
+            "dimensions.%": "1",
+            "dimensions.FunctionName": "imageProcessing",
+            "evaluate_low_sample_count_percentiles": "",
+            "evaluation_periods": "1",
+            "extended_statistic": "",
+            "id": "imageProcessing errors",
+            "insufficient_data_actions.#": "0",
+            "metric_name": "Errors",
+            "namespace": "AWS/Lambda",
+            "ok_actions.#": "0",
+            "period": "300",
+            "statistic": "Sum",
+            "tags.%": "0",
+            "tags_all.%": "0",
+            "threshold": "1",
+            "threshold_metric_id": "",
+            "treat_missing_data": "missing",
+            "unit": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_cloudwatch_metric_alarm",
+      "name": "tfer--listImages-0020-errors",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "actions_enabled": "true",
+            "alarm_actions.#": "1",
+            "alarm_actions.0": "arn:aws:sns:us-east-2:982534391787:Default_CloudWatch_Alarms_Topic",
+            "alarm_description": "",
+            "alarm_name": "listImages errors",
+            "arn": "arn:aws:cloudwatch:us-east-2:982534391787:alarm:listImages errors",
+            "comparison_operator": "GreaterThanThreshold",
+            "datapoints_to_alarm": "1",
+            "dimensions.%": "1",
+            "dimensions.FunctionName": "listImages",
+            "evaluate_low_sample_count_percentiles": "",
+            "evaluation_periods": "1",
+            "extended_statistic": "",
+            "id": "listImages errors",
+            "insufficient_data_actions.#": "0",
+            "metric_name": "Errors",
+            "namespace": "AWS/Lambda",
+            "ok_actions.#": "0",
+            "period": "300",
+            "statistic": "Sum",
+            "tags.%": "0",
+            "tags_all.%": "0",
+            "threshold": "1",
+            "threshold_metric_id": "",
+            "treat_missing_data": "missing",
+            "unit": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_cloudwatch_metric_alarm",
+      "name": "tfer--saveMetadata-0020-errors",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "actions_enabled": "true",
+            "alarm_actions.#": "1",
+            "alarm_actions.0": "arn:aws:sns:us-east-2:982534391787:Default_CloudWatch_Alarms_Topic",
+            "alarm_description": "",
+            "alarm_name": "saveMetadata errors",
+            "arn": "arn:aws:cloudwatch:us-east-2:982534391787:alarm:saveMetadata errors",
+            "comparison_operator": "GreaterThanThreshold",
+            "datapoints_to_alarm": "1",
+            "dimensions.%": "1",
+            "dimensions.FunctionName": "saveMetadata",
+            "evaluate_low_sample_count_percentiles": "",
+            "evaluation_periods": "1",
+            "extended_statistic": "",
+            "id": "saveMetadata errors",
+            "insufficient_data_actions.#": "0",
+            "metric_name": "Errors",
+            "namespace": "AWS/Lambda",
+            "ok_actions.#": "0",
+            "period": "300",
+            "statistic": "Sum",
+            "tags.%": "0",
+            "tags_all.%": "0",
+            "threshold": "1",
+            "threshold_metric_id": "",
+            "treat_missing_data": "missing",
+            "unit": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_cloudwatch_metric_alarm",
+      "name": "tfer--uploadImage-0020-errors",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "actions_enabled": "true",
+            "alarm_actions.#": "1",
+            "alarm_actions.0": "arn:aws:sns:us-east-2:982534391787:Default_CloudWatch_Alarms_Topic",
+            "alarm_description": "",
+            "alarm_name": "uploadImage errors",
+            "arn": "arn:aws:cloudwatch:us-east-2:982534391787:alarm:uploadImage errors",
+            "comparison_operator": "GreaterThanThreshold",
+            "datapoints_to_alarm": "1",
+            "dimensions.%": "1",
+            "dimensions.FunctionName": "uploadImage",
+            "evaluate_low_sample_count_percentiles": "",
+            "evaluation_periods": "1",
+            "extended_statistic": "",
+            "id": "uploadImage errors",
+            "insufficient_data_actions.#": "0",
+            "metric_name": "Errors",
+            "namespace": "AWS/Lambda",
+            "ok_actions.#": "0",
+            "period": "300",
+            "statistic": "Sum",
+            "tags.%": "0",
+            "tags_all.%": "0",
+            "threshold": "1",
+            "threshold_metric_id": "",
+            "treat_missing_data": "missing",
+            "unit": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}

@@ -1,0 +1,78 @@
+{
+  "version": 4,
+  "terraform_version": "1.11.2",
+  "serial": 2,
+  "lineage": "941622d5-6a45-8533-0d86-a294ccf5c085",
+  "outputs": {
+    "aws_s3_bucket_imageapi_prod_uploads_id": {
+      "value": "imageapi-prod-uploads-us-east-2",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "imageapi_prod_uploads",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "acceleration_status": "",
+            "acl": "private",
+            "arn": "arn:aws:s3:::imageapi-prod-uploads-us-east-2",
+            "bucket": "imageapi-prod-uploads-us-east-2",
+            "bucket_domain_name": "imageapi-prod-uploads-us-east-2.s3.amazonaws.com",
+            "bucket_prefix": "",
+            "bucket_regional_domain_name": "imageapi-prod-uploads-us-east-2.s3.us-east-2.amazonaws.com",
+            "cors_rule.#": "0",
+            "force_destroy": "false",
+            "grant.#": "1",
+            "grant.0.id": "1892604533cd96724c01f74bcae27b29d6605fef54146d11860f58e85643ad89",
+            "grant.0.permissions.#": "1",
+            "grant.0.permissions.0": "FULL_CONTROL",
+            "grant.0.type": "CanonicalUser",
+            "grant.0.uri": "",
+            "hosted_zone_id": "Z2O1EMRO9K5GLX",
+            "id": "imageapi-prod-uploads-us-east-2",
+            "lifecycle_rule.#": "1",
+            "lifecycle_rule.0.abort_incomplete_multipart_upload_days": "0",
+            "lifecycle_rule.0.enabled": "true",
+            "lifecycle_rule.0.expiration.#": "1",
+            "lifecycle_rule.0.expiration.0.date": "",
+            "lifecycle_rule.0.expiration.0.days": "7",
+            "lifecycle_rule.0.expiration.0.expired_object_delete_marker": "false",
+            "lifecycle_rule.0.id": "7days cycle",
+            "lifecycle_rule.0.noncurrent_version_expiration.#": "0",
+            "lifecycle_rule.0.noncurrent_version_transition.#": "0",
+            "lifecycle_rule.0.prefix": "",
+            "lifecycle_rule.0.tags.%": "0",
+            "lifecycle_rule.0.transition.#": "0",
+            "logging.#": "0",
+            "object_lock_configuration.#": "0",
+            "object_lock_enabled": "false",
+            "policy": "",
+            "region": "us-east-2",
+            "replication_configuration.#": "0",
+            "request_payer": "BucketOwner",
+            "server_side_encryption_configuration.#": "1",
+            "server_side_encryption_configuration.0.rule.#": "1",
+            "server_side_encryption_configuration.0.rule.0.apply_server_side_encryption_by_default.#": "1",
+            "server_side_encryption_configuration.0.rule.0.apply_server_side_encryption_by_default.0.kms_master_key_id": "",
+            "server_side_encryption_configuration.0.rule.0.apply_server_side_encryption_by_default.0.sse_algorithm": "AES256",
+            "server_side_encryption_configuration.0.rule.0.bucket_key_enabled": "true",
+            "tags.%": "0",
+            "tags_all.%": "0",
+            "versioning.#": "1",
+            "versioning.0.enabled": "false",
+            "versioning.0.mfa_delete": "false",
+            "website.#": "0"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}

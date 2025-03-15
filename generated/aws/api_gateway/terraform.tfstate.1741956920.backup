@@ -1,0 +1,1150 @@
+{
+  "version": 4,
+  "terraform_version": "1.11.2",
+  "serial": 1,
+  "lineage": "d35508c2-9f2a-69be-b902-dad4135ab4dd",
+  "outputs": {
+    "aws_api_gateway_authorizer_tfer--2pyoqy_id": {
+      "value": "2pyoqy",
+      "type": "string"
+    },
+    "aws_api_gateway_integration_response_tfer--lt4m5t2qx1-002F-j555bz-002F-GET-002F-200_id": {
+      "value": "lt4m5t2qx1/j555bz/GET/200",
+      "type": "string"
+    },
+    "aws_api_gateway_integration_response_tfer--lt4m5t2qx1-002F-jcu3yk-002F-POST-002F-200_id": {
+      "value": "lt4m5t2qx1/jcu3yk/POST/200",
+      "type": "string"
+    },
+    "aws_api_gateway_integration_response_tfer--lt4m5t2qx1-002F-n6xn0j-002F-DELETE-002F-200_id": {
+      "value": "lt4m5t2qx1/n6xn0j/DELETE/200",
+      "type": "string"
+    },
+    "aws_api_gateway_integration_response_tfer--lt4m5t2qx1-002F-q8l40a-002F-GET-002F-200_id": {
+      "value": "lt4m5t2qx1/q8l40a/GET/200",
+      "type": "string"
+    },
+    "aws_api_gateway_integration_response_tfer--lt4m5t2qx1-002F-u05yvc-002F-GET-002F-200_id": {
+      "value": "lt4m5t2qx1/u05yvc/GET/200",
+      "type": "string"
+    },
+    "aws_api_gateway_integration_response_tfer--lt4m5t2qx1-002F-wjwehd-002F-GET-002F-200_id": {
+      "value": "lt4m5t2qx1/wjwehd/GET/200",
+      "type": "string"
+    },
+    "aws_api_gateway_integration_tfer--lt4m5t2qx1-002F-j555bz-002F-GET_id": {
+      "value": "lt4m5t2qx1/j555bz/GET",
+      "type": "string"
+    },
+    "aws_api_gateway_integration_tfer--lt4m5t2qx1-002F-jcu3yk-002F-POST_id": {
+      "value": "lt4m5t2qx1/jcu3yk/POST",
+      "type": "string"
+    },
+    "aws_api_gateway_integration_tfer--lt4m5t2qx1-002F-n6xn0j-002F-DELETE_id": {
+      "value": "lt4m5t2qx1/n6xn0j/DELETE",
+      "type": "string"
+    },
+    "aws_api_gateway_integration_tfer--lt4m5t2qx1-002F-q8l40a-002F-GET_id": {
+      "value": "lt4m5t2qx1/q8l40a/GET",
+      "type": "string"
+    },
+    "aws_api_gateway_integration_tfer--lt4m5t2qx1-002F-u05yvc-002F-GET_id": {
+      "value": "lt4m5t2qx1/u05yvc/GET",
+      "type": "string"
+    },
+    "aws_api_gateway_integration_tfer--lt4m5t2qx1-002F-wjwehd-002F-GET_id": {
+      "value": "lt4m5t2qx1/wjwehd/GET",
+      "type": "string"
+    },
+    "aws_api_gateway_method_response_tfer--lt4m5t2qx1-002F-j555bz-002F-GET-002F-200_id": {
+      "value": "lt4m5t2qx1/j555bz/GET/200",
+      "type": "string"
+    },
+    "aws_api_gateway_method_response_tfer--lt4m5t2qx1-002F-jcu3yk-002F-POST-002F-200_id": {
+      "value": "lt4m5t2qx1/jcu3yk/POST/200",
+      "type": "string"
+    },
+    "aws_api_gateway_method_response_tfer--lt4m5t2qx1-002F-n6xn0j-002F-DELETE-002F-200_id": {
+      "value": "lt4m5t2qx1/n6xn0j/DELETE/200",
+      "type": "string"
+    },
+    "aws_api_gateway_method_response_tfer--lt4m5t2qx1-002F-q8l40a-002F-GET-002F-200_id": {
+      "value": "lt4m5t2qx1/q8l40a/GET/200",
+      "type": "string"
+    },
+    "aws_api_gateway_method_response_tfer--lt4m5t2qx1-002F-u05yvc-002F-GET-002F-200_id": {
+      "value": "lt4m5t2qx1/u05yvc/GET/200",
+      "type": "string"
+    },
+    "aws_api_gateway_method_response_tfer--lt4m5t2qx1-002F-wjwehd-002F-GET-002F-200_id": {
+      "value": "lt4m5t2qx1/wjwehd/GET/200",
+      "type": "string"
+    },
+    "aws_api_gateway_method_tfer--lt4m5t2qx1-002F-j555bz-002F-GET_id": {
+      "value": "lt4m5t2qx1/j555bz/GET",
+      "type": "string"
+    },
+    "aws_api_gateway_method_tfer--lt4m5t2qx1-002F-jcu3yk-002F-POST_id": {
+      "value": "lt4m5t2qx1/jcu3yk/POST",
+      "type": "string"
+    },
+    "aws_api_gateway_method_tfer--lt4m5t2qx1-002F-n6xn0j-002F-DELETE_id": {
+      "value": "lt4m5t2qx1/n6xn0j/DELETE",
+      "type": "string"
+    },
+    "aws_api_gateway_method_tfer--lt4m5t2qx1-002F-q8l40a-002F-GET_id": {
+      "value": "lt4m5t2qx1/q8l40a/GET",
+      "type": "string"
+    },
+    "aws_api_gateway_method_tfer--lt4m5t2qx1-002F-u05yvc-002F-GET_id": {
+      "value": "lt4m5t2qx1/u05yvc/GET",
+      "type": "string"
+    },
+    "aws_api_gateway_method_tfer--lt4m5t2qx1-002F-wjwehd-002F-GET_id": {
+      "value": "lt4m5t2qx1/wjwehd/GET",
+      "type": "string"
+    },
+    "aws_api_gateway_model_tfer--die27x_id": {
+      "value": "die27x",
+      "type": "string"
+    },
+    "aws_api_gateway_resource_tfer--3h92vj_id": {
+      "value": "3h92vj",
+      "type": "string"
+    },
+    "aws_api_gateway_resource_tfer--j555bz_id": {
+      "value": "j555bz",
+      "type": "string"
+    },
+    "aws_api_gateway_resource_tfer--jcu3yk_id": {
+      "value": "jcu3yk",
+      "type": "string"
+    },
+    "aws_api_gateway_resource_tfer--n6xn0j_id": {
+      "value": "n6xn0j",
+      "type": "string"
+    },
+    "aws_api_gateway_resource_tfer--q8l40a_id": {
+      "value": "q8l40a",
+      "type": "string"
+    },
+    "aws_api_gateway_resource_tfer--t6qfc4_id": {
+      "value": "t6qfc4",
+      "type": "string"
+    },
+    "aws_api_gateway_resource_tfer--u05yvc_id": {
+      "value": "u05yvc",
+      "type": "string"
+    },
+    "aws_api_gateway_resource_tfer--wjwehd_id": {
+      "value": "wjwehd",
+      "type": "string"
+    },
+    "aws_api_gateway_resource_tfer--xfjpma_id": {
+      "value": "xfjpma",
+      "type": "string"
+    },
+    "aws_api_gateway_resource_tfer--yafgin_id": {
+      "value": "yafgin",
+      "type": "string"
+    },
+    "aws_api_gateway_resource_tfer--zzql4o384f_id": {
+      "value": "zzql4o384f",
+      "type": "string"
+    },
+    "aws_api_gateway_rest_api_tfer--DM123-002D-Project_id": {
+      "value": "lt4m5t2qx1",
+      "type": "string"
+    },
+    "aws_api_gateway_stage_tfer--lt4m5t2qx1-002F-dm123_id": {
+      "value": "lt4m5t2qx1/dm123",
+      "type": "string"
+    },
+    "aws_api_gateway_usage_plan_tfer--imageapi-usageplan_id": {
+      "value": "rfe9f1",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_authorizer",
+      "name": "tfer--2pyoqy",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "arn": "arn:aws:apigateway:us-east-2::/restapis/lt4m5t2qx1/authorizers/2pyoqy",
+            "authorizer_credentials": "",
+            "authorizer_result_ttl_in_seconds": "300",
+            "authorizer_uri": "",
+            "id": "2pyoqy",
+            "identity_source": "method.request.header.Authorization",
+            "identity_validation_expression": "",
+            "name": "photo-app-users-cognito",
+            "provider_arns.#": "1",
+            "provider_arns.0": "arn:aws:cognito-idp:us-east-2:982534391787:userpool/us-east-2_TzkigiVML",
+            "rest_api_id": "lt4m5t2qx1",
+            "type": "COGNITO_USER_POOLS"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_integration",
+      "name": "tfer--lt4m5t2qx1-002F-j555bz-002F-GET",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "cache_key_parameters.#": "0",
+            "cache_namespace": "j555bz",
+            "connection_id": "",
+            "connection_type": "INTERNET",
+            "content_handling": "CONVERT_TO_TEXT",
+            "credentials": "",
+            "http_method": "GET",
+            "id": "lt4m5t2qx1/j555bz/GET",
+            "integration_http_method": "POST",
+            "passthrough_behavior": "WHEN_NO_MATCH",
+            "request_parameters.%": "0",
+            "request_templates.%": "0",
+            "resource_id": "j555bz",
+            "rest_api_id": "lt4m5t2qx1",
+            "timeout_milliseconds": "29000",
+            "tls_config.#": "0",
+            "type": "AWS_PROXY",
+            "uri": "arn:aws:apigateway:us-east-2:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-2:982534391787:function:listImages/invocations"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_integration",
+      "name": "tfer--lt4m5t2qx1-002F-jcu3yk-002F-POST",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "cache_key_parameters.#": "0",
+            "cache_namespace": "jcu3yk",
+            "connection_id": "",
+            "connection_type": "INTERNET",
+            "content_handling": "CONVERT_TO_TEXT",
+            "credentials": "",
+            "http_method": "POST",
+            "id": "lt4m5t2qx1/jcu3yk/POST",
+            "integration_http_method": "POST",
+            "passthrough_behavior": "WHEN_NO_MATCH",
+            "request_parameters.%": "0",
+            "request_templates.%": "0",
+            "resource_id": "jcu3yk",
+            "rest_api_id": "lt4m5t2qx1",
+            "timeout_milliseconds": "29000",
+            "tls_config.#": "0",
+            "type": "AWS_PROXY",
+            "uri": "arn:aws:apigateway:us-east-2:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-2:982534391787:function:uploadImage/invocations"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_integration",
+      "name": "tfer--lt4m5t2qx1-002F-n6xn0j-002F-DELETE",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "cache_key_parameters.#": "0",
+            "cache_namespace": "n6xn0j",
+            "connection_id": "",
+            "connection_type": "INTERNET",
+            "content_handling": "CONVERT_TO_TEXT",
+            "credentials": "",
+            "http_method": "DELETE",
+            "id": "lt4m5t2qx1/n6xn0j/DELETE",
+            "integration_http_method": "POST",
+            "passthrough_behavior": "WHEN_NO_MATCH",
+            "request_parameters.%": "0",
+            "request_templates.%": "1",
+            "request_templates.application/json": "{\r\n  \"pathParameters\": {\r\n    \"key\": \"$input.params('key')\"\r\n  }\r\n}\r\n",
+            "resource_id": "n6xn0j",
+            "rest_api_id": "lt4m5t2qx1",
+            "timeout_milliseconds": "29000",
+            "tls_config.#": "0",
+            "type": "AWS_PROXY",
+            "uri": "arn:aws:apigateway:us-east-2:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-2:982534391787:function:deleteImage/invocations"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_integration",
+      "name": "tfer--lt4m5t2qx1-002F-q8l40a-002F-GET",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "cache_key_parameters.#": "0",
+            "cache_namespace": "q8l40a",
+            "connection_id": "",
+            "connection_type": "INTERNET",
+            "content_handling": "CONVERT_TO_TEXT",
+            "credentials": "",
+            "http_method": "GET",
+            "id": "lt4m5t2qx1/q8l40a/GET",
+            "integration_http_method": "POST",
+            "passthrough_behavior": "WHEN_NO_MATCH",
+            "request_parameters.%": "0",
+            "request_templates.%": "1",
+            "request_templates.application/json": "{\r\n  \"pathParameters\": {\r\n    \"key\": \"$input.params('key')\"\r\n  },\r\n  \"queryStringParameters\": {\r\n    \"type\": \"$input.params('type')\"\r\n  }\r\n}\r\n",
+            "resource_id": "q8l40a",
+            "rest_api_id": "lt4m5t2qx1",
+            "timeout_milliseconds": "29000",
+            "tls_config.#": "0",
+            "type": "AWS_PROXY",
+            "uri": "arn:aws:apigateway:us-east-2:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-2:982534391787:function:imageProcessing/invocations"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_integration",
+      "name": "tfer--lt4m5t2qx1-002F-u05yvc-002F-GET",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "cache_key_parameters.#": "0",
+            "cache_namespace": "u05yvc",
+            "connection_id": "",
+            "connection_type": "INTERNET",
+            "content_handling": "CONVERT_TO_TEXT",
+            "credentials": "",
+            "http_method": "GET",
+            "id": "lt4m5t2qx1/u05yvc/GET",
+            "integration_http_method": "POST",
+            "passthrough_behavior": "WHEN_NO_MATCH",
+            "request_parameters.%": "0",
+            "request_templates.%": "0",
+            "resource_id": "u05yvc",
+            "rest_api_id": "lt4m5t2qx1",
+            "timeout_milliseconds": "29000",
+            "tls_config.#": "0",
+            "type": "AWS_PROXY",
+            "uri": "arn:aws:apigateway:us-east-2:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-2:982534391787:function:dbStats/invocations"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_integration",
+      "name": "tfer--lt4m5t2qx1-002F-wjwehd-002F-GET",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "cache_key_parameters.#": "0",
+            "cache_namespace": "wjwehd",
+            "connection_id": "",
+            "connection_type": "INTERNET",
+            "content_handling": "CONVERT_TO_TEXT",
+            "credentials": "",
+            "http_method": "GET",
+            "id": "lt4m5t2qx1/wjwehd/GET",
+            "integration_http_method": "POST",
+            "passthrough_behavior": "WHEN_NO_MATCH",
+            "request_parameters.%": "0",
+            "request_templates.%": "1",
+            "request_templates.application/json": "{\r\n  \"pathParameters\": {\r\n    \"key\": \"$input.params('key')\"\r\n  }\r\n}\r\n",
+            "resource_id": "wjwehd",
+            "rest_api_id": "lt4m5t2qx1",
+            "timeout_milliseconds": "29000",
+            "tls_config.#": "0",
+            "type": "AWS_PROXY",
+            "uri": "arn:aws:apigateway:us-east-2:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-2:982534391787:function:downloadImage/invocations"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_integration_response",
+      "name": "tfer--lt4m5t2qx1-002F-j555bz-002F-GET-002F-200",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "content_handling": "",
+            "http_method": "GET",
+            "id": "lt4m5t2qx1/j555bz/GET/200",
+            "resource_id": "j555bz",
+            "response_parameters.%": "0",
+            "response_templates.%": "1",
+            "response_templates.application/json": "",
+            "rest_api_id": "lt4m5t2qx1",
+            "selection_pattern": "",
+            "status_code": "200"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_integration_response",
+      "name": "tfer--lt4m5t2qx1-002F-jcu3yk-002F-POST-002F-200",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "content_handling": "",
+            "http_method": "POST",
+            "id": "lt4m5t2qx1/jcu3yk/POST/200",
+            "resource_id": "jcu3yk",
+            "response_parameters.%": "0",
+            "response_templates.%": "1",
+            "response_templates.application/json": "",
+            "rest_api_id": "lt4m5t2qx1",
+            "selection_pattern": "",
+            "status_code": "200"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_integration_response",
+      "name": "tfer--lt4m5t2qx1-002F-n6xn0j-002F-DELETE-002F-200",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "content_handling": "",
+            "http_method": "DELETE",
+            "id": "lt4m5t2qx1/n6xn0j/DELETE/200",
+            "resource_id": "n6xn0j",
+            "response_parameters.%": "0",
+            "response_templates.%": "1",
+            "response_templates.application/json": "",
+            "rest_api_id": "lt4m5t2qx1",
+            "selection_pattern": "",
+            "status_code": "200"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_integration_response",
+      "name": "tfer--lt4m5t2qx1-002F-q8l40a-002F-GET-002F-200",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "content_handling": "",
+            "http_method": "GET",
+            "id": "lt4m5t2qx1/q8l40a/GET/200",
+            "resource_id": "q8l40a",
+            "response_parameters.%": "0",
+            "response_templates.%": "1",
+            "response_templates.application/json": "",
+            "rest_api_id": "lt4m5t2qx1",
+            "selection_pattern": "",
+            "status_code": "200"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_integration_response",
+      "name": "tfer--lt4m5t2qx1-002F-u05yvc-002F-GET-002F-200",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "content_handling": "",
+            "http_method": "GET",
+            "id": "lt4m5t2qx1/u05yvc/GET/200",
+            "resource_id": "u05yvc",
+            "response_parameters.%": "0",
+            "response_templates.%": "1",
+            "response_templates.application/json": "",
+            "rest_api_id": "lt4m5t2qx1",
+            "selection_pattern": "",
+            "status_code": "200"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_integration_response",
+      "name": "tfer--lt4m5t2qx1-002F-wjwehd-002F-GET-002F-200",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "content_handling": "",
+            "http_method": "GET",
+            "id": "lt4m5t2qx1/wjwehd/GET/200",
+            "resource_id": "wjwehd",
+            "response_parameters.%": "0",
+            "response_templates.%": "1",
+            "response_templates.application/json": "",
+            "rest_api_id": "lt4m5t2qx1",
+            "selection_pattern": "",
+            "status_code": "200"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_method",
+      "name": "tfer--lt4m5t2qx1-002F-j555bz-002F-GET",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "api_key_required": "false",
+            "authorization": "COGNITO_USER_POOLS",
+            "authorization_scopes.#": "0",
+            "authorizer_id": "2pyoqy",
+            "http_method": "GET",
+            "id": "lt4m5t2qx1/j555bz/GET",
+            "operation_name": "",
+            "request_models.%": "0",
+            "request_parameters.%": "1",
+            "request_parameters.method.request.querystring.start_date": "false",
+            "request_validator_id": "",
+            "resource_id": "j555bz",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_method",
+      "name": "tfer--lt4m5t2qx1-002F-jcu3yk-002F-POST",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "api_key_required": "false",
+            "authorization": "COGNITO_USER_POOLS",
+            "authorization_scopes.#": "0",
+            "authorizer_id": "2pyoqy",
+            "http_method": "POST",
+            "id": "lt4m5t2qx1/jcu3yk/POST",
+            "operation_name": "",
+            "request_models.%": "0",
+            "request_parameters.%": "0",
+            "request_validator_id": "",
+            "resource_id": "jcu3yk",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_method",
+      "name": "tfer--lt4m5t2qx1-002F-n6xn0j-002F-DELETE",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "api_key_required": "false",
+            "authorization": "COGNITO_USER_POOLS",
+            "authorization_scopes.#": "0",
+            "authorizer_id": "2pyoqy",
+            "http_method": "DELETE",
+            "id": "lt4m5t2qx1/n6xn0j/DELETE",
+            "operation_name": "",
+            "request_models.%": "0",
+            "request_parameters.%": "1",
+            "request_parameters.method.request.path.key": "true",
+            "request_validator_id": "",
+            "resource_id": "n6xn0j",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_method",
+      "name": "tfer--lt4m5t2qx1-002F-q8l40a-002F-GET",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "api_key_required": "false",
+            "authorization": "COGNITO_USER_POOLS",
+            "authorization_scopes.#": "0",
+            "authorizer_id": "2pyoqy",
+            "http_method": "GET",
+            "id": "lt4m5t2qx1/q8l40a/GET",
+            "operation_name": "",
+            "request_models.%": "0",
+            "request_parameters.%": "2",
+            "request_parameters.method.request.path.key": "true",
+            "request_parameters.method.request.querystring.type": "true",
+            "request_validator_id": "",
+            "resource_id": "q8l40a",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_method",
+      "name": "tfer--lt4m5t2qx1-002F-u05yvc-002F-GET",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "api_key_required": "false",
+            "authorization": "COGNITO_USER_POOLS",
+            "authorization_scopes.#": "0",
+            "authorizer_id": "2pyoqy",
+            "http_method": "GET",
+            "id": "lt4m5t2qx1/u05yvc/GET",
+            "operation_name": "",
+            "request_models.%": "0",
+            "request_parameters.%": "0",
+            "request_validator_id": "",
+            "resource_id": "u05yvc",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_method",
+      "name": "tfer--lt4m5t2qx1-002F-wjwehd-002F-GET",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "api_key_required": "false",
+            "authorization": "COGNITO_USER_POOLS",
+            "authorization_scopes.#": "0",
+            "authorizer_id": "2pyoqy",
+            "http_method": "GET",
+            "id": "lt4m5t2qx1/wjwehd/GET",
+            "operation_name": "",
+            "request_models.%": "0",
+            "request_parameters.%": "1",
+            "request_parameters.method.request.path.key": "true",
+            "request_validator_id": "",
+            "resource_id": "wjwehd",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_method_response",
+      "name": "tfer--lt4m5t2qx1-002F-j555bz-002F-GET-002F-200",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "http_method": "GET",
+            "id": "lt4m5t2qx1/j555bz/GET/200",
+            "resource_id": "j555bz",
+            "response_models.%": "1",
+            "response_models.application/json": "Empty",
+            "response_parameters.%": "0",
+            "rest_api_id": "lt4m5t2qx1",
+            "status_code": "200"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_method_response",
+      "name": "tfer--lt4m5t2qx1-002F-jcu3yk-002F-POST-002F-200",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "http_method": "POST",
+            "id": "lt4m5t2qx1/jcu3yk/POST/200",
+            "resource_id": "jcu3yk",
+            "response_models.%": "1",
+            "response_models.application/json": "Empty",
+            "response_parameters.%": "0",
+            "rest_api_id": "lt4m5t2qx1",
+            "status_code": "200"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_method_response",
+      "name": "tfer--lt4m5t2qx1-002F-n6xn0j-002F-DELETE-002F-200",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "http_method": "DELETE",
+            "id": "lt4m5t2qx1/n6xn0j/DELETE/200",
+            "resource_id": "n6xn0j",
+            "response_models.%": "1",
+            "response_models.application/json": "Empty",
+            "response_parameters.%": "0",
+            "rest_api_id": "lt4m5t2qx1",
+            "status_code": "200"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_method_response",
+      "name": "tfer--lt4m5t2qx1-002F-q8l40a-002F-GET-002F-200",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "http_method": "GET",
+            "id": "lt4m5t2qx1/q8l40a/GET/200",
+            "resource_id": "q8l40a",
+            "response_models.%": "1",
+            "response_models.application/json": "Empty",
+            "response_parameters.%": "0",
+            "rest_api_id": "lt4m5t2qx1",
+            "status_code": "200"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_method_response",
+      "name": "tfer--lt4m5t2qx1-002F-u05yvc-002F-GET-002F-200",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "http_method": "GET",
+            "id": "lt4m5t2qx1/u05yvc/GET/200",
+            "resource_id": "u05yvc",
+            "response_models.%": "1",
+            "response_models.application/json": "Empty",
+            "response_parameters.%": "0",
+            "rest_api_id": "lt4m5t2qx1",
+            "status_code": "200"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_method_response",
+      "name": "tfer--lt4m5t2qx1-002F-wjwehd-002F-GET-002F-200",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "http_method": "GET",
+            "id": "lt4m5t2qx1/wjwehd/GET/200",
+            "resource_id": "wjwehd",
+            "response_models.%": "1",
+            "response_models.application/json": "Empty",
+            "response_parameters.%": "0",
+            "rest_api_id": "lt4m5t2qx1",
+            "status_code": "200"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_model",
+      "name": "tfer--die27x",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "content_type": "application/json",
+            "description": "This is a default empty schema model",
+            "id": "die27x",
+            "name": "Empty",
+            "rest_api_id": "lt4m5t2qx1",
+            "schema": "{\n  \"$schema\": \"http://json-schema.org/draft-04/schema#\",\n  \"title\" : \"Empty Schema\",\n  \"type\" : \"object\"\n}"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_resource",
+      "name": "tfer--3h92vj",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "id": "3h92vj",
+            "parent_id": "xfjpma",
+            "path": "/image/process",
+            "path_part": "process",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_resource",
+      "name": "tfer--j555bz",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "id": "j555bz",
+            "parent_id": "xfjpma",
+            "path": "/image/list",
+            "path_part": "list",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_resource",
+      "name": "tfer--jcu3yk",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "id": "jcu3yk",
+            "parent_id": "xfjpma",
+            "path": "/image/upload",
+            "path_part": "upload",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_resource",
+      "name": "tfer--n6xn0j",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "id": "n6xn0j",
+            "parent_id": "t6qfc4",
+            "path": "/image/delete/{key}",
+            "path_part": "{key}",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_resource",
+      "name": "tfer--q8l40a",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "id": "q8l40a",
+            "parent_id": "3h92vj",
+            "path": "/image/process/{key}",
+            "path_part": "{key}",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_resource",
+      "name": "tfer--t6qfc4",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "id": "t6qfc4",
+            "parent_id": "xfjpma",
+            "path": "/image/delete",
+            "path_part": "delete",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_resource",
+      "name": "tfer--u05yvc",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "id": "u05yvc",
+            "parent_id": "zzql4o384f",
+            "path": "/stats",
+            "path_part": "stats",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_resource",
+      "name": "tfer--wjwehd",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "id": "wjwehd",
+            "parent_id": "yafgin",
+            "path": "/image/download/{key}",
+            "path_part": "{key}",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_resource",
+      "name": "tfer--xfjpma",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "id": "xfjpma",
+            "parent_id": "zzql4o384f",
+            "path": "/image",
+            "path_part": "image",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_resource",
+      "name": "tfer--yafgin",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "id": "yafgin",
+            "parent_id": "xfjpma",
+            "path": "/image/download",
+            "path_part": "download",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_resource",
+      "name": "tfer--zzql4o384f",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "id": "zzql4o384f",
+            "parent_id": "",
+            "path": "/",
+            "path_part": "",
+            "rest_api_id": "lt4m5t2qx1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_rest_api",
+      "name": "tfer--DM123-Project",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "api_key_source": "HEADER",
+            "arn": "arn:aws:apigateway:us-east-2::/restapis/lt4m5t2qx1",
+            "binary_media_types.#": "2",
+            "binary_media_types.0": "image/*",
+            "binary_media_types.1": "multipart/form-data",
+            "created_date": "2024-12-04T17:54:35Z",
+            "description": "",
+            "disable_execute_api_endpoint": "false",
+            "endpoint_configuration.#": "1",
+            "endpoint_configuration.0.types.#": "1",
+            "endpoint_configuration.0.types.0": "REGIONAL",
+            "endpoint_configuration.0.vpc_endpoint_ids.#": "0",
+            "execution_arn": "arn:aws:execute-api:us-east-2:982534391787:lt4m5t2qx1",
+            "id": "lt4m5t2qx1",
+            "minimum_compression_size": "",
+            "name": "DM123-Project",
+            "policy": "",
+            "root_resource_id": "zzql4o384f",
+            "tags.%": "0",
+            "tags_all.%": "0"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_stage",
+      "name": "tfer--lt4m5t2qx1-002F-dm123",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "access_log_settings.#": "0",
+            "arn": "arn:aws:apigateway:us-east-2::/restapis/lt4m5t2qx1/stages/dm123",
+            "cache_cluster_enabled": "false",
+            "cache_cluster_size": "",
+            "canary_settings.#": "0",
+            "client_certificate_id": "",
+            "deployment_id": "k0t2f1",
+            "description": "",
+            "documentation_version": "",
+            "execution_arn": "arn:aws:execute-api:us-east-2:982534391787:lt4m5t2qx1/dm123",
+            "id": "lt4m5t2qx1/dm123",
+            "invoke_url": "https://lt4m5t2qx1.execute-api.us-east-2.amazonaws.com/dm123",
+            "rest_api_id": "lt4m5t2qx1",
+            "stage_name": "dm123",
+            "tags.%": "0",
+            "tags_all.%": "0",
+            "variables.%": "0",
+            "web_acl_arn": "",
+            "xray_tracing_enabled": "false"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_api_gateway_usage_plan",
+      "name": "tfer--imageapi-usageplan",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes_flat": {
+            "api_stages.#": "0",
+            "arn": "arn:aws:apigateway:us-east-2::/usageplans/rfe9f1",
+            "description": "",
+            "id": "rfe9f1",
+            "name": "imageapi-usageplan",
+            "product_code": "",
+            "tags.%": "0",
+            "tags_all.%": "0",
+            "throttle_settings.#": "1",
+            "throttle_settings.0.burst_limit": "1",
+            "throttle_settings.0.rate_limit": "1"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
